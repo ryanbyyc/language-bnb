@@ -1,0 +1,14 @@
+{
+  "name": "language-bnb",
+  "version": "1.0.0",
+  "description": "Custom language support for B&B cutscenes",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/ryanbyyc/language-bnb",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
