@@ -16,5 +16,100 @@
       '1':
         'name': 'keyword.control'
     'match': '\\b(?:(camera))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(sound))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(music))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(scene))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(parallel))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(sequence))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(@))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(instantiate))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(moveTo))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(anim))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(wait))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.other'
+    'match': '\\b(?:(say))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.other'
+    'match': '\\b(?:(prompt))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control.repeat'
+    'match': '\\b(?:(loop))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(trigger))\\b'
+  },
+	{
+    'captures':
+      '1':
+        'name': 'keyword.control'
+    'match': '\\b(?:(emit))\\b'
+  },
+	{
+    'comment': 'keywords that describe camera controls'
+    'name': 'keyword.control.conditional'
+    'match': '\\b(blackout|fadeout|fadein|centre|center)\\b'
   }
 ]
