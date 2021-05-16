@@ -31,7 +31,7 @@
   },
 	{
     'comment': 'keywords used in animations and sounds'
-    'name': 'punctuation.separator'
+    'name': 'support.function.console'
     'match': '\\b(once|repeat)\\b'
   },
 	{
