@@ -12,6 +12,10 @@
     'name': 'comment'
   },
 	{
+    'match': '(!)+(.+)*$'
+    'name': 'support.function'
+  },
+	{
     'name': 'keyword.operator'
     'match': '(@)+(.+)*$'
   },
@@ -29,5 +33,10 @@
     'comment': 'keywords used in animations and sounds'
     'name': 'punctuation.separator'
     'match': '\\b(once|repeat)\\b'
+  },
+	{
+    'comment': 'keywords used in scene operations'
+    'name': 'support.function.console'
+    'match': '\\b(removeroof)\\b'
   }
 ]
